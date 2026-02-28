@@ -18,7 +18,7 @@ appService:
  type: LoadBalancer
 
 configmap: 
-  MONGODB_URI: "mongodb://mongodb:27017/vegetable_order_app"
+  MONGODB_URI: "mongodb://vegetable-app-mongo-service:27017/vegetable_order_app"
   PORT: "3000"
   MONGO_INITDB_DATABASE: "myDatabase"
 

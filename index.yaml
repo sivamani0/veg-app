@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  veg-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-02-28T18:19:35.414025563Z"
+    description: A Helm chart for Kubernetes
+    digest: fca48ec86d140fe8a4064fbf3b21119f18b0f56f6dd42f22afcf42c1c2203e0e
+    name: veg-app
+    type: application
+    urls:
+    - https://github.com/sivamani0/veg-app/releases/download/veg-app-0.2.2/veg-app-0.2.2.tgz
+    version: 0.2.2
+generated: "2026-02-28T18:19:35.414030233Z"

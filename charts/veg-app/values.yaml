@@ -1,4 +1,4 @@
-namespace: namespace-ns 
+namespace: veg-ns 
 
 replicas: 4
 

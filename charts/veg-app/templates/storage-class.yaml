@@ -1,9 +1,0 @@
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-metadata:
-  name: {{ .Release.Name }}-vegitable-sc
-provisioner: {{ .Values.storageclass.provisioner}}
-parameters:
-  type: {{ .Values.storageclass.parameters.type}}
-reclaimPolicy: {{ .Values.storageclass.reclaimPolicy}}
-volumeBindingMode: {{ .Values.storageclass.volumeBindingMode}} 

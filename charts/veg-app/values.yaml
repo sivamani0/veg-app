@@ -1,6 +1,6 @@
 namespace: veg-ns 
 
-replicas: 4
+replicas: 6
 
 appDeployment:
  labels:
